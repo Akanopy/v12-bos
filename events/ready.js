@@ -1,12 +1,10 @@
 const Discord = require("discord.js");
 const config = require('../config.js');
 module.exports = async client => {
-  client.user.setPresence({ activity: { type: "PLAYING", name: `Developer By Special`}, status: 'dnd' })
+  client.user.setPresence({ activity: { type: "PLAYING", name: `Made By Akano`}, status: 'online' })
 };
 
 /*
-name kısmına istediğiniz durumu yazabilirsiniz.
-
 WATCHING = İZLİYOR
 PLAYING = OYNUYOR
 LISTENING = DİNLİYOR
