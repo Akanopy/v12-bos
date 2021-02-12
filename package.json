@@ -1,7 +1,7 @@
 {
-  "name": "discord-v12-infrastructure",
+  "name": "discord-v12-akano",
   "version": "0.0.1",
-  "description": "Discord.js V12 infrastructure",
+  "description": "Discord Bot Boş Altyapı Akano
   "main": "server.js",
   "scripts": {
     "start": "node server.js"
