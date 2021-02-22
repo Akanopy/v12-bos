@@ -1,6 +1,6 @@
 module.exports = {
   "token": "TOKEN",
-  "developer": ["DİSCORD ID"], 
+  "developer": ["kendi ıd"], 
   "prefix": "."
 };
 
