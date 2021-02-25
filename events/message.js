@@ -20,12 +20,12 @@ module.exports = message => {
     if (cmd.config.permLevel) {
       if(cmd.config.permLevel === "BOT_OWNER") {
    if(!config.developer.includes(message.author.id)) {
-        message.channel.send(`Being able to use this command must have authority for the \`${cmd.config.permLevel}\``).then(msg => msg.delete({timeout: 3000}));
+        message.channel.send(`Bu Komutu sadece BOT_OWNER kullana bilir \`${cmd.config.permLevel}\``).then(msg => msg.delete({timeout: 3000}));
         return;
    }
       }
         if(!message.member.hasPermission(cmd.config.permLevel)) {
-      message.channel.send(`Being able to use this command must have authority for the \`${cmd.config.permLevel}\``).then(msg => msg.delete({timeout: 3000}));
+      message.channel.send(`Bu Komutu sadece BOT_OWNER kullana bilir \`${cmd.config.permLevel}\``).then(msg => msg.delete({timeout: 3000}));
      return;
       };
     };
