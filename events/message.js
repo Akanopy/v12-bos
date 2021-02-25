@@ -1,4 +1,4 @@
-const config = require('../config.js');
+const config = require('../Akano-ayarlar.js');
 module.exports = message => {
   let client = message.client;
   if (message.author.bot) return;
