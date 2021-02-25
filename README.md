@@ -1,4 +1,4 @@
-# Discord Boş Altyapım 
+# slm
 
 > config.js Dosyasını Doldurup Terminal'e "npm i" yazmayı unutma 
 
