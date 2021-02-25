@@ -1,6 +1,6 @@
 const Discord = require("discord.js")    
 const client = new Discord.Client();       
-const config = require("./config.js")    
+const config = require("./Akano-ayarlar.js")    
 const fs = require("fs");                
 require('./util/Loader.js')(client);     
 
