@@ -1,6 +1,6 @@
 # slm
 
-> config.js Dosyasını Doldurup Terminal'e "npm i" yazmayı unutma 
+> config.js dosyasını doldurmayı unutma muck
 
 > Events > Ready.js Kısımından Botun Durumunu Değiştire Bilirsin
 
