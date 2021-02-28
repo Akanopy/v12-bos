@@ -12,7 +12,7 @@ fs.readdir('./Akanokomutlar/', (err, files) => {
   files.forEach(f => {                       
     let props = require(`./Akanokomutlar/${f}`);   
     console.log(`${props.config.name} komutlar yüklendi :O.`); 
-    console.log(`successfully entered`)     
+    console.log(`31`)     
     client.commands.set(props.config.name, props); 
     props.config.aliases.forEach(alias => {          
       client.aliases.set(alias, props.config.name);  
