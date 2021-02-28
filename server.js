@@ -69,3 +69,4 @@ client.unload = command => {
 };
 
 client.login(config.token)
+console.log("akano giriş yaptın aga")
